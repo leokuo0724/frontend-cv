@@ -138,6 +138,18 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description}
+                  {work.achievements.length > 0 && (
+                    <ul className="mt-2 list-disc pl-4">
+                      {work.achievements.map((achievement, index) => (
+                        <li className="mb-2" key={index}>
+                          <p className="inline-block font-bold">
+                            {achievement.title}:&nbsp;
+                          </p>
+                          {achievement.content}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </CardContent>
               </Card>
             );

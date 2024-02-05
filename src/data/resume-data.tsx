@@ -18,6 +18,7 @@ export const RESUME_DATA = {
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/Taipei",
   about: "Front-end Engineer", // TODO: complete this
+  // TODO: add more about me
   summary:
     "Goal-oriented Front-end engineer with 3+ years experience working with HTML/CSS, JavaScript, TypeScript, React and Phaser. Adept at optimizing performance and collaborating cross-functional teams to deliver high-quality products.",
   avatarUrl: AvatarImage,
@@ -71,7 +72,35 @@ export const RESUME_DATA = {
       logo: ParabolLogo, // TODO: add Cooby logo
       start: "Jun 2021",
       end: "Present",
-      description: "",
+      description:
+        "Cooby is a startup backed by Sequoia, focusing on providing powerful WhatsApp experience to users. In my role, I focused on developing and optimizing chrome extension and playing a role as a scrum master.",
+      achievements: [
+        {
+          title: "Performance Optimization",
+          content:
+            "Significantly optimized messages sync performance by 90%. Put the product to a leading position in the market.",
+        },
+        {
+          title: "Bug Resolution Rate Improvement",
+          content:
+            "Managed bug resolution workflow to achieve a 90% resolution rate within SLA for the entire team, marking a 22% improvement compared to the previous state.",
+        },
+        {
+          title: "Extension Development",
+          content:
+            "Led the development of extension on WhatsApp web, fulfilled 15+ innovative features to engage users.",
+        },
+        {
+          title: "E2E Testing Improvement",
+          content:
+            "Improved E2E testing by updating Chrome profile in GitHub CI. Resulted in a 60% reduction in update time.",
+        },
+        {
+          title: "Team Productivity Management",
+          content:
+            "As a scrum master, facilitated sprint process and enhanced team productivity by 13%. Also, mentored an intern to improve his skills and increase team's productivity.",
+        },
+      ],
     },
     {
       company: "Cooby",
@@ -82,9 +111,10 @@ export const RESUME_DATA = {
       start: "May 2021",
       end: "Apr 2021",
       description: "",
+      achievements: [],
     },
     {
-      company: "CityChaser",
+      company: "CityChaser Studio",
       link: undefined,
       badges: ["Self-employed"],
       title: "Co-cunder & Front-end Engineer",
@@ -92,6 +122,7 @@ export const RESUME_DATA = {
       start: "May 2019",
       end: "Feb 2021",
       description: "",
+      achievements: [],
     },
   ],
   skills: [
@@ -107,6 +138,7 @@ export const RESUME_DATA = {
     {
       title: "Mongol March",
       techStack: [
+        "Self-initiated",
         "JS13kGames",
         "TypeScript",
         "vite",
