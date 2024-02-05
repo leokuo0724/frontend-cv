@@ -17,37 +17,48 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import AvatarImage from "../images/others/avatar.jpeg";
+import {
+  BehanceIcon,
+  GitHubIcon,
+  LinkedInIcon,
+  MediumIcon,
+  XIcon,
+} from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+  name: "Chia-Ming Kuo",
+  initials: "CMK",
+  location: "Taipei, Taiwan",
+  locationLink: "https://www.google.com/maps/place/Taipei",
+  about: "Front-end Engineer", // TODO: complete this
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Goal-oriented Front-end engineer with 3+ years experience working with HTML/CSS, JavaScript, TypeScript, React and Phaser. Adept at optimizing performance and collaborating cross-functional teams to deliver high-quality products.",
+  avatarUrl: AvatarImage,
+  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "p900372012@gmail.com", // TODO: display email on the page
+    tel: "+886-935-980-912", // TODO: display phone number on the page
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/leokuo0724",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/chia-ming-kuo-588a191b9/",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "Medium",
+        url: "https://leokuo0724.medium.com/",
+        icon: MediumIcon,
+      },
+      {
+        name: "Behance",
+        url: "https://www.behance.net/leokuo",
+        icon: BehanceIcon,
       },
     ],
   },
