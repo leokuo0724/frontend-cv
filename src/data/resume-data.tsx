@@ -14,10 +14,10 @@ export const RESUME_DATA = {
   initials: "CMK",
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/Taipei",
-  about: "Front-end Engineer", // TODO: complete this
-  // TODO: add more about me
+  about:
+    "Front-end engineer focused on solving problems to achieve business goals and optimizing performance to provide high-quality products",
   summary:
-    "Goal-oriented Front-end engineer with 3+ years experience working with HTML/CSS, JavaScript, TypeScript, React and Phaser. Adept at optimizing performance and collaborating cross-functional teams to deliver high-quality products.",
+    "As a Front-end engineer, I have 3+ years experience working with HTML/CSS, TypeScript, React and Phaser. I always focused on how to solve problems to achieve company's goals. Because of my background in industrial design, I can think from different perspectives and provide innovative solutions to teams.",
   avatarUrl: AvatarImage,
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -52,12 +52,15 @@ export const RESUME_DATA = {
       degree: "Master's Degree in Industrial Design",
       start: "2017",
       end: "2020",
+      description: "",
+      achievements: [{ title: "", content: "" }],
     },
     {
       school: "National Cheng Kung University",
       degree: "Bachelor's Degree in Photonics",
       start: "2013",
       end: "2017",
+      description: "",
     },
   ],
   work: [
@@ -137,7 +140,7 @@ export const RESUME_DATA = {
     },
     {
       company: "CityChaser Studio",
-      link: undefined,
+      link: "https://gnn.gamer.com.tw/detail.php?sn=199702",
       badges: ["Self-employed"],
       title: "Co-cunder & Front-end Engineer",
       logo: CityChaserLogo,
