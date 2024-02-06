@@ -21,8 +21,8 @@ export const RESUME_DATA = {
   avatarUrl: AvatarImage,
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "p900372012@gmail.com", // TODO: display email on the page
-    tel: "+886-935-980-912", // TODO: display phone number on the page
+    email: "p900372012@gmail.com",
+    tel: "+886-935-980-912",
     social: [
       {
         name: "GitHub",

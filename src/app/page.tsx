@@ -22,10 +22,10 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-2">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground ">
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
-            <div className="flex max-w-md flex-col gap-2 text-pretty pt-2 font-mono text-xs text-muted-foreground md:flex-row">
+            <div className="flex max-w-md flex-col gap-2 text-pretty pt-2 font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={RESUME_DATA.locationLink}
@@ -34,6 +34,7 @@ export default function Page() {
                 <GlobeIcon className="size-3 " />
                 {RESUME_DATA.location}
               </a>
+
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={`mailto:${RESUME_DATA.contact.email}`}
@@ -41,6 +42,7 @@ export default function Page() {
                 <MailIcon className="size-3" />
                 {RESUME_DATA.contact.email}
               </a>
+
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={`tel:${RESUME_DATA.contact.tel}`}
