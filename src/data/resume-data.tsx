@@ -52,8 +52,15 @@ export const RESUME_DATA = {
       degree: "Master's Degree in Industrial Design",
       start: "2017",
       end: "2020",
-      description: "",
-      achievements: [{ title: "", content: "" }],
+      description:
+        'During the graduated study, I focused on human computer interaction field, especially in "Gamification". I am passionate about how to use game design elements in non-game context to engage users.',
+      achievements: [
+        {
+          title: "Gamification Study",
+          content:
+            "My study focused on exploring how to use gamification strategies to engage elderly to do more exercise. The result of this work was successfully accepted and included in the 2019 HCI International Conference.",
+        },
+      ],
     },
     {
       school: "National Cheng Kung University",
@@ -61,6 +68,18 @@ export const RESUME_DATA = {
       start: "2013",
       end: "2017",
       description: "",
+      achievements: [
+        {
+          title: "Caption of Track and Field Team",
+          content:
+            "Led and managed the team. Organized national track and field championships. Expanded team size by 150% through promotion and hosting of hight running events.",
+        },
+        {
+          title: "Public Relations Director of Graduate Student Association",
+          content:
+            "Coordinated sponsorship agreements with vendors. Organized seminar events to enhance the visibility of the association.",
+        },
+      ],
     },
   ],
   work: [

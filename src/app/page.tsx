@@ -198,7 +198,27 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2 flex flex-col gap-2">
+                  {education.degree}
+                  {education.description && (
+                    <div className="text-xs">{education.description}</div>
+                  )}
+
+                  {education.achievements.length > 0 && (
+                    <ul className="list-disc pl-4 text-xs">
+                      {education.achievements.map((achievement, index) => (
+                        <li className="mb-2" key={index}>
+                          {achievement.title.length > 0 && (
+                            <p className="inline-block font-bold">
+                              {achievement.title}:&nbsp;
+                            </p>
+                          )}
+                          {achievement.content}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </CardContent>
               </Card>
             );
           })}
