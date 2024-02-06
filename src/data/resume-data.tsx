@@ -1,10 +1,7 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  ParabolLogo,
-} from "@/images/logos";
+import { ClevertechLogo, ConsultlyLogo, JojoMobileLogo } from "@/images/logos";
 import AvatarImage from "../images/others/avatar.jpeg";
+import CoobyLogo from "../images/logos/cooby.jpg";
+import CityChaserLogo from "../images/logos/citychaser.png";
 import {
   BehanceIcon,
   GitHubIcon,
@@ -69,7 +66,7 @@ export const RESUME_DATA = {
       link: "https://cooby.co",
       badges: ["Full-time"],
       title: "Front-end Engineer",
-      logo: ParabolLogo, // TODO: add Cooby logo
+      logo: CoobyLogo,
       start: "Jun 2021",
       end: "Present",
       description:
@@ -121,19 +118,19 @@ export const RESUME_DATA = {
       link: "https://cooby.co",
       badges: ["Internship"],
       title: "iOS Software Engineer",
-      logo: ClevertechLogo, // TODO: add Cooby logo
+      logo: CoobyLogo,
       start: "May 2021",
       end: "Apr 2021",
       description: "",
       tags: ["Swift", "GCD", "UIKit", "Auto Layout", "Firebase", "Amplitude"],
       achievements: [
         {
-          title: "iOS Development",
+          title: "Fix Critical Issues",
           content:
             "Identified and resolved crash issue caused by unsafely manipulating multi-threads.",
         },
         {
-          title: "Fix Critical Issues",
+          title: "iOS Development",
           content: "Designed and Implemented in-product onboarding system.",
         },
       ],
@@ -143,7 +140,7 @@ export const RESUME_DATA = {
       link: undefined,
       badges: ["Self-employed"],
       title: "Co-cunder & Front-end Engineer",
-      logo: JojoMobileLogo, // TODO: add CityChaser logo
+      logo: CityChaserLogo,
       start: "May 2019",
       end: "Feb 2021",
       description:
@@ -230,16 +227,16 @@ export const RESUME_DATA = {
         href: "https://consultly.com/",
       },
     },
-    {
-      title: "Love Lighter",
-      techStack: ["TypeScript", "Phaser.js", "React", "Redux"],
-      description: "The entry for game jam 2023. (台灣自製遊戲公會)",
-      logo: ConsultlyLogo,
-      link: {
-        // TODO: with the link to the game
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
+    // {
+    //   title: "Love Lighter",
+    //   techStack: ["TypeScript", "Phaser.js", "React", "Redux"],
+    //   description: "The entry for game jam 2023. (台灣自製遊戲公會)",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     // TODO: with the link to the game
+    //     label: "consultly.com",
+    //     href: "https://consultly.com/",
+    //   },
+    // },
   ],
 } as const;

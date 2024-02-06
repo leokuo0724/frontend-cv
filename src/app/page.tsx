@@ -35,7 +35,7 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.contact.email ? (
                 <Button
                   className="size-8"
@@ -74,7 +74,7 @@ export default function Page() {
                 </Button>
               ))}
             </div>
-            <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
+            {/* <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
@@ -85,7 +85,7 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
               ) : null}
-            </div>
+            </div> */}
           </div>
 
           <Avatar className="size-28">
@@ -129,7 +129,7 @@ export default function Page() {
                   </div>
 
                   <Image
-                    className="h-8 w-8 rounded"
+                    className="h-8 w-8 rounded object-contain"
                     src={work.logo}
                     alt={work.company}
                   />
