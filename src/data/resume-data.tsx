@@ -111,7 +111,17 @@ export const RESUME_DATA = {
       start: "May 2021",
       end: "Apr 2021",
       description: "",
-      achievements: [],
+      achievements: [
+        {
+          title: "iOS Development",
+          content:
+            "Identified and resolved crash issue caused by unsafely manipulating multi-threads.",
+        },
+        {
+          title: "Fix Critical Issues",
+          content: "Designed and Implemented in-product onboarding system.",
+        },
+      ],
     },
     {
       company: "CityChaser Studio",
@@ -121,8 +131,30 @@ export const RESUME_DATA = {
       logo: JojoMobileLogo, // TODO: add CityChaser logo
       start: "May 2019",
       end: "Feb 2021",
-      description: "",
-      achievements: [],
+      description:
+        'CityChaser is a group of partners who are interested in Taiwanese architectures and developed a mobile game "Kyronus" (開拓者), aiming to let users understand the beauty of architectures in Taiwan through the game. I took a role as product owner, as well as front-end developer and art designer.',
+      achievements: [
+        {
+          title: "Award Winning",
+          content:
+            "Led the team to develop the game. In the end, the game won the bronze medal of mobile game category in 2020 Vision Get Wild Award.",
+        },
+        {
+          title: "HTML5 Game Development",
+          content:
+            "Implemented the core part of the game by Phaser.js and used Vue to deal with UI and states.",
+        },
+        {
+          title: "Design Team Management",
+          content:
+            "Led the design team and setup the UI and visual guideline to make the whole design team to follow. Also, provided the constructive feedbacks to designers.",
+        },
+        {
+          title: "UX Research & Interview",
+          content:
+            "Conducted user interviews to collect feedback. Developed interview outlines, coded and analyzed interview content.",
+        },
+      ],
     },
   ],
   skills: [

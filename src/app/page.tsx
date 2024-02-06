@@ -129,7 +129,7 @@ export default function Page() {
                   </div>
 
                   <Image
-                    className="h-8 w-8"
+                    className="h-8 w-8 rounded"
                     src={work.logo}
                     alt={work.company}
                   />
