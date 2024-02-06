@@ -225,9 +225,24 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-col gap-4">
             {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
+              return (
+                <Card className="flex flex-col gap-3" key={skill.category}>
+                  <CardHeader>
+                    <h3 className="font-semibold leading-none">
+                      {skill.category}
+                    </h3>
+                  </CardHeader>
+                  <CardContent className="flex flex-wrap gap-1">
+                    {skill.tags.map((tag) => (
+                      <Badge variant="secondary" key={tag}>
+                        {tag}
+                      </Badge>
+                    ))}
+                  </CardContent>
+                </Card>
+              );
             })}
           </div>
         </Section>

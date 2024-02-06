@@ -72,7 +72,7 @@ export const RESUME_DATA = {
         {
           title: "Caption of Track and Field Team",
           content:
-            "Led and managed the team. Organized national track and field championships. Expanded team size by 150% through promotion and hosting of hight running events.",
+            "Led and managed the team. Organized national track and field championships. Expanded team size by 150% through promotion and hosting of night running events.",
         },
         {
           title: "Public Relations Director of Graduate Student Association",
@@ -201,13 +201,47 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    {
+      category: "Web Development",
+      tags: [
+        "HTML/CSS",
+        "SCSS/SASS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Phaser.js",
+        "WebSocket",
+        "Web Performance",
+        "Jest",
+        "Playwright",
+        "Webpack",
+        "Vite",
+        "Git",
+        "GitHub CI/CD",
+        "Debugging & Monitoring",
+      ],
+    },
+    {
+      category: "Soft Skills",
+      tags: [
+        "Problem Solving",
+        "Teamwork",
+        "MVP Release Coordination",
+        "Leadership",
+        "Agile Development",
+      ],
+    },
+    {
+      category: "Others",
+      tags: [
+        "iOS Development",
+        "UI/UX Design",
+        "2D Graphic Design",
+        "2D Animation Design",
+      ],
+    },
   ],
   projects: [
     {
