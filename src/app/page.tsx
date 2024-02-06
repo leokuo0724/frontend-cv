@@ -135,6 +135,19 @@ export default function Page() {
                   />
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
+                  {work.tags.length > 0 && (
+                    <div className="mb-2 flex flex-wrap gap-1 ">
+                      {work.tags.map((tag) => (
+                        <Badge
+                          className="px-1 py-0 text-[10px]"
+                          variant="outline"
+                          key={tag}
+                        >
+                          {tag}
+                        </Badge>
+                      ))}
+                    </div>
+                  )}
                   {work.description}
                   {work.achievements.length > 0 && (
                     <ul className="mt-2 list-disc pl-4">

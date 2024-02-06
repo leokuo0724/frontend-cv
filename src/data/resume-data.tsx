@@ -74,6 +74,20 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Cooby is a startup backed by Sequoia, focusing on providing powerful WhatsApp experience to users. In my role, I focused on developing and optimizing chrome extension and playing a role as a scrum master.",
+      tags: [
+        "Chrome Extension",
+        "Reserve Engineering",
+        "React",
+        "Redux",
+        "Next.js",
+        "TanStack Query",
+        "Chakra UI",
+        "Playwright",
+        "GitHub CI/CD",
+        "Amplitude",
+        "Rollbar",
+        "i18n",
+      ],
       achievements: [
         {
           title: "Performance Optimization",
@@ -111,6 +125,7 @@ export const RESUME_DATA = {
       start: "May 2021",
       end: "Apr 2021",
       description: "",
+      tags: ["Swift", "GCD", "UIKit", "Auto Layout", "Firebase", "Amplitude"],
       achievements: [
         {
           title: "iOS Development",
@@ -133,6 +148,15 @@ export const RESUME_DATA = {
       end: "Feb 2021",
       description:
         'CityChaser is a group of partners who are interested in Taiwanese architectures and developed a mobile game "Kyronus" (開拓者), aiming to let users understand the beauty of architectures in Taiwan through the game. I took a role as product owner, as well as front-end developer and art designer.',
+      tags: [
+        "Phaser.js",
+        "Vue",
+        "SASS",
+        "Cordova",
+        "PWA",
+        "Google Ads",
+        "Design System",
+      ],
       achievements: [
         {
           title: "Award Winning",
