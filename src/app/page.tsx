@@ -249,7 +249,7 @@ export default function Page() {
 
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-2 print:gap-2 md:grid-cols-2">
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-1 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
@@ -258,6 +258,7 @@ export default function Page() {
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
+                  image={"image" in project ? project.image : undefined}
                 />
               );
             })}

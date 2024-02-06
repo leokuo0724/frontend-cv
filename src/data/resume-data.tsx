@@ -1,7 +1,8 @@
-import { ClevertechLogo, ConsultlyLogo, JojoMobileLogo } from "@/images/logos";
 import AvatarImage from "../images/others/avatar.jpeg";
 import CoobyLogo from "../images/logos/cooby.jpg";
 import CityChaserLogo from "../images/logos/citychaser.png";
+import BaseballGameImage from "../images/others/baseball-game.png";
+import MongolMarchImage from "../images/others/mongol-march.png";
 import {
   BehanceIcon,
   GitHubIcon,
@@ -19,7 +20,7 @@ export const RESUME_DATA = {
   summary:
     "As a Front-end engineer, I have 3+ years experience working with HTML/CSS, TypeScript, React and Phaser. I always focused on how to solve problems to achieve company's goals. Because of my background in industrial design, I can think from different perspectives and provide innovative solutions to teams.",
   avatarUrl: AvatarImage,
-  // personalWebsiteUrl: "https://jarocki.me",
+  // personalWebsiteUrl: "",
   contact: {
     email: "p900372012@gmail.com",
     tel: "+886-935-980-912",
@@ -256,12 +257,11 @@ export const RESUME_DATA = {
       ],
       description:
         "An entry for js13kGames 2023 with limited size of 13kb. The game achieved 38th place overall and 4th place in the innovation category.",
-      logo: ConsultlyLogo,
       link: {
-        // TODO: with the link to the game
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Mongol March",
+        href: "https://js13kgames.com/entries/mongol-march",
       },
+      image: MongolMarchImage,
     },
     {
       title: "Baseball against the wind",
@@ -276,23 +276,11 @@ export const RESUME_DATA = {
       ],
       description:
         "Individually designed and developed the game, showcasing end-to-end project expertise with React and Socket.IO for multi-player functionality.",
-      logo: ConsultlyLogo,
       link: {
-        // TODO: with the link to the game
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Baseball against the wind",
+        href: "https://baseball-against-the-wind.com/",
       },
+      image: BaseballGameImage,
     },
-    // {
-    //   title: "Love Lighter",
-    //   techStack: ["TypeScript", "Phaser.js", "React", "Redux"],
-    //   description: "The entry for game jam 2023. (台灣自製遊戲公會)",
-    //   logo: ConsultlyLogo,
-    //   link: {
-    //     // TODO: with the link to the game
-    //     label: "consultly.com",
-    //     href: "https://consultly.com/",
-    //   },
-    // },
   ],
 } as const;
