@@ -22,7 +22,11 @@ export function ProjectCard({ title, description, tags, link, image }: Props) {
       className="grid gap-4 overflow-hidden border border-muted p-3"
       style={{ gridTemplateColumns: "120px 1fr" }}
     >
-      {image && <Image className="h-30 w-30 rounded" src={image} alt={title} />}
+      {image && (
+        <a href={link} target="_blank">
+          <Image className="h-30 w-30 rounded" src={image} alt={title} />
+        </a>
+      )}
 
       <div className="flex flex-col">
         <CardHeader className="mb-2">

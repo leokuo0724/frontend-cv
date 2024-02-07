@@ -223,7 +223,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+        <Section className="print-force-new-page">
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-col gap-4">
             {RESUME_DATA.skills.map((skill) => {

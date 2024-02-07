@@ -3,6 +3,8 @@ import CoobyLogo from "../images/logos/cooby.jpg";
 import CityChaserLogo from "../images/logos/citychaser.png";
 import BaseballGameImage from "../images/others/baseball-game.png";
 import MongolMarchImage from "../images/others/mongol-march.png";
+import KyronusImage from "../images/others/kyronus.png";
+import LoveLightsImage from "../images/others/love-lights.png";
 import {
   BehanceIcon,
   GitHubIcon,
@@ -102,6 +104,7 @@ export const RESUME_DATA = {
         "Next.js",
         "TanStack Query",
         "Chakra UI",
+        "Tailwind CSS",
         "Playwright",
         "GitHub CI/CD",
         "Amplitude",
@@ -281,6 +284,36 @@ export const RESUME_DATA = {
         href: "https://baseball-against-the-wind.com/",
       },
       image: BaseballGameImage,
+    },
+    {
+      title: "Kyronus 開拓者",
+      techStack: ["Phaser.js", "Vue", "SASS", "Cordova", "Google Ads"],
+      description:
+        "A mobile game that won the bronze medal in 2020 Vision Get Wild Award. I took a role as product owner, front-end developer and designer. The game built with web tech and used Cordova to package as a mobile app.",
+      link: {
+        label: "Kyronus",
+        href: "https://www.behance.net/gallery/112249619/Kyronus-",
+      },
+      image: KyronusImage,
+    },
+    {
+      title: "Love Lights",
+      techStack: [
+        "Self-initiated",
+        "Phaser.js",
+        "React",
+        "Jotai",
+        "Chakra UI",
+        "Lottie",
+        "TTS Voice Wizard",
+      ],
+      description:
+        "A game crafted from scratch for a game jam, showcasing both my game design and development skills, as well as my MVP mindset. (DIY game jam, 台灣自製遊戲公會)",
+      link: {
+        label: "Love Lights",
+        href: "https://leokuo0724.itch.io/love-lights",
+      },
+      image: LoveLightsImage,
     },
   ],
 } as const;
