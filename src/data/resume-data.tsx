@@ -16,9 +16,9 @@ export const RESUME_DATA = {
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/Taipei",
   about:
-    "Front-end engineer focused on solving problems to achieve business goals and optimizing performance to provide high-quality products",
+    "Front-end engineer focused on solving problems to achieve business goals and optimizing performance to provide high-quality products.",
   summary:
-    "As a Front-end engineer, I have 3+ years experience working with HTML/CSS, TypeScript, React and Phaser. I always focused on how to solve problems to achieve company's goals. Because of my background in industrial design, I can think from different perspectives and provide innovative solutions to teams.",
+    "As a Front-end engineer, I have over 3 years of experience working with HTML/CSS, TypeScript, React, and Phaser. I always focus on solving problems to achieve the company's goals. With a background in industrial design, I can approach challenges from various perspectives and offer innovative solutions to teams.",
   avatarUrl: AvatarImage,
   // personalWebsiteUrl: "",
   contact: {
