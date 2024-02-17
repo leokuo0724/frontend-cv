@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       description: "",
       achievements: [
         {
-          title: "Caption of Track and Field Team",
+          title: "Captain of Track and Field Team",
           content:
             "Led and managed the team. Organized national track and field championships. Expanded team size by 150% through promotion and hosting of night running events.",
         },
